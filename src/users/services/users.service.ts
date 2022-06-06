@@ -58,7 +58,6 @@ export class UsersService {
 
 	update(id: number, payload: UpdateUserDto) {
 		const user = this.findById(+id);
-		const index = this.user.findIndex((item) => item.id === id);
 		if (user) {
 			const index = this.user.findIndex((item) => item.id === id);
 			return (this.user[index] = {

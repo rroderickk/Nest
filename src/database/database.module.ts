@@ -7,7 +7,7 @@ const API_KEY_PROD = 'PROD1341234';
 @Module({
 	providers: [
 		{
-			provide: 'DATABASE_CONNECTION',
+			provide: 'API_KEY',
 			useValue: process.env.NODE_ENV === 'prod' ? API_KEY_PROD : API_KEY,
 		},
 	],
