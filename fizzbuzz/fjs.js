@@ -15,7 +15,7 @@ const fiz = function () {
 fiz();
 */
 
-/* 
+/*
 const fiz = function () {
 	console.log("$$$$$$$$$$$$");
 	for (let num = 1; num < 44; num++) {
@@ -29,7 +29,7 @@ const fiz = function () {
 	}
 };
 fiz();
- */
+*/
 
 //!ProMode
-for (let num = 1; num < 44; num++) console.log(`${num%3==0 ? '':'Fizz'}${num%5==0 ? '':'Buzz'}` || num);
+for (let num = 1; num < 40; num++) console.log( `${num % 3 == 0 ? '' : 'Fizz'}${num % 5 == 0 ? '' : 'Buzz'}` || num,);

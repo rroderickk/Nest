@@ -10,7 +10,7 @@ Command doc:
 
 ```js
 	//! Install nestjs
-	npm i -g @nestjs/cli 
+	npm i -g @nestjs/cli
 
 	//! Nest new project
 	nest new [ProjectName]

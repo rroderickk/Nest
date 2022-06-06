@@ -1,9 +1,7 @@
 const myName = 'CheatModeS4';
 const myAge = 49;
 
-const sum = (a: number, b: number): number => {
-	return a + b;
-};
+const sum = (a: number, b: number): number => a + b;
 
 class Person {
 	constructor(private age: number, private name: string) {}

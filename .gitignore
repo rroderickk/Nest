@@ -2,6 +2,7 @@
 /dist
 /node_modules
 Insomnia-All_2022-01-17.json
+*.env
 
 # Logs
 logs
